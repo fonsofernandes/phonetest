@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Primeira App Phonegap</title>
+
+    <!-- Page Styles-->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+
+    <!-- TOPCOAT -->
+    <link href="css/plugins/topcoat-mobile-light.min.css" rel="stylesheet" />
+
+    <!-- PHONEGAP -->
+    <script src="cordova.js"></script>
+
+    <!-- ZEPTO -->
+    <script src="js/zepto.min.js"></script>
+
+    <!-- APP JS -->
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <menu id="menu">
+        <h3 class="topcoat-list__header toogle-menu">Voltar</h3>
+        <ul class="topcoat-list__container">
+            <li class="topcoat-list__item"><a href="#" class="navigate" data-page="camera">Camera</a></li>
+            <li class="topcoat-list__item"><a href="#" class="navigate" data-page="contatos">Contatos</a></li>
+            <li class="topcoat-list__item"><a href="#" class="navigate" data-page="geolocation">GeoLocation</a></li>
+        </ul>
+    </menu>
+    <div id="page">
+        <header>
+            <div id="menu-button" class="toogle-menu"></div>
+            <h1>APP Phonegap</h1>
+        </header>
+        <div id="container" class="container">
+
+        </div>
+    </div>
+</body>
+</html>
